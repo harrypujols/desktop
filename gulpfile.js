@@ -7,7 +7,6 @@ var gulp = require("gulp"),
   notify = require("gulp-notify"),
   clean = require("gulp-rimraf"),
   gutil = require("gulp-util"),
-  coffee = require("gulp-coffee"),
   uglify = require("gulp-uglify"),
   concat = require("gulp-concat"),
   path = require("path"),
@@ -274,20 +273,6 @@ function tags() {
 
   return stream;
 }
-
-// --- Scripts ---
-gulp.task("js", function () {
-  return gulp
-    .src("./dev/scripts/*.coffee")
-    .pipe(coffee().on("error", gutil.log))
-    .pipe(gulp.dest("./build/js"))
-    .pipe(
-      notify({
-        title: "Success",
-        message: "Coffeescript compiled",
-      })
-    );
-});
 
 // --- Vendor ---
 gulp.task("vendor", function () {
