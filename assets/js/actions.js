@@ -11,7 +11,8 @@ $(document).ready(function () {
   });
 
   //loaders
-  $("a").click(function () {
+  $(".loader-link").click(function () {
+    event.preventDefault();
     x = $(this).attr("id");
     switch (x) {
       case "link1":
