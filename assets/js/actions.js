@@ -1,5 +1,6 @@
 //home page
 $(document).ready(function () {
+  console.log("Welcome to my desktop!");
   //to load the waiting image while the real image loads
   var loading = $("<img />")
     .attr("src", "assets/images/watch.gif")
@@ -12,7 +13,7 @@ $(document).ready(function () {
 
   //loaders
   $(".loader-link").click(function () {
-    event.preventDefault();
+    // event.preventDefault();
     x = $(this).attr("id");
     switch (x) {
       case "link1":
