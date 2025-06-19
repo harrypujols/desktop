@@ -1,72 +1,202 @@
 <!DOCTYPE html>
-<meta charset="UTF-8" />
-<!--meta tags-->
-<meta name="description" content="The virtual desktop of Harry Pujols. Creative director, Web developer, and sometimes, cartoonist." />
-<meta name="keywords" content="cartoonist, writer, copywriter, creative, designer, developer, artist, freelance" />
-<title>Harry Pujols</title>
-<!--style tags-->
-<link href="assets/css/styles.css" rel="stylesheet" media="all" />
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!--meta tags-->
+    <meta
+      name="description"
+      content="The virtual desktop of Harry Pujols. Creative director, Web developer, and sometimes, cartoonist."
+    />
+    <meta
+      name="keywords"
+      content="cartoonist, writer, copywriter, creative, designer, developer, artist, freelance"
+    />
+    <title>Harry Pujols</title>
+    <!--style tags-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" type="image/png" href="icon.png" />
+    <!--script tags-->
 
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="apple-touch-icon" type="image/png" href="icon.png"/>
-<!--script tags-->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"></script>
-<script src="assets/js/actions.js"></script>
-<!--[if IE]>
-<script src="js/modernizr.js"></script>
-<link href="css/ie.css" rel="stylesheet" media="all" />
-<![endif]-->
-
-</head>
-<body>
-<div id="container" class="rounded">
-    <header>
-    <span id="logo"><a href="/" id="reset"><img src="assets/images/lizard.png" width="36" height="17" alt="reset" /></a></span>
-    <h2><a id="link1" class="loader-link">About</a></h2>
-    <h2><a id="link2" class="loader-link">Contact</a></h2>
-    <h2><a id="share" class="loader-link">Share</a></h2>
-    <div id="dropdown">
-    	<ul>
-        	<li><a href="https://www.facebook.com/share.php?u=http://www.harrypujols.com" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com/home?status=http://www.harrypujols.com" target="_blank">Twitter</a></li>
-        </ul>
-    </div>
-    <span id="clock"></span>
-    </header>
-    <div>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"
+    ></script>
+    <script src="js/actions.js"></script>
+    <!--[if IE]>
+      <script src="js/modernizr.js"></script>
+      <link href="css/ie.css" rel="stylesheet" media="all" />
+    <![endif]-->
+  </head>
+  <body>
+    <div id="container" class="rounded">
+      <header>
+        <span id="logo"
+          ><a href="index.html" id="reset"
+            ><img
+              src="assets/images/lizard.png"
+              width="36"
+              height="17"
+              alt="reset" /></a
+        ></span>
+        <h2><a id="link1" class="loader-link">About</a></h2>
+        <h2><a id="link2" class="loader-link">Contact</a></h2>
+        <h2><a id="share" class="loader-link">Share</a></h2>
+        <div id="dropdown" style="display: none">
+          <ul>
+            <li>
+              <a
+                href="http://www.facebook.com/share.php?u=http://www.harrypujols.com"
+                target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://twitter.com/home?status=http://www.harrypujols.com"
+                target="_blank"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </div>
+        <span id="clock"> 5:55 PM</span>
+      </header>
+      <section>
         <nav>
-        <ul>
+          <ul>
             <li class="dragdrop">
-            <a id="link3" class="rollover loader-link" href="#">
-              <img src="assets/images/hd_off.png" alt="social" /><br />
-              <span>social network</span>
-            </a>
-            <li class="dragdrop invisible ">
-            <a href="content/resume" class="rollover"><img src="assets/images/document_off.png" alt="resume" /><br />
-            <span>resume.doc</span></a>
+              <a id="link3" class="rollover loader-link"
+                ><img src="assets/images/hd_off.png" alt="social" /><br />
+                <p>social network</p></a
+              >
+              <!--
+            </li> 
+            <li class="dragdrop">
+            <a href="links" class="rollover loader-link"><img src="assets/images/diskette_off.png" alt="interactive" /><br />
+            <p>interactive</p></a>
+            </li>
+            <li class="dragdrop">
+            <a href="comics" class="rollover loader-link"><img src="assets/images/app_off.png" alt="comics" /><br />
+            <p>comics</p></a>
+            </li>
+            --></li>
+            <li class="dragdrop">
+              <a href="content/resume" class="rollover"
+                ><img src="assets/images/document_off.png" alt="resume" /><br />
+                <p>resume.doc</p></a
+              >
             </li>
             <li id="trash" class="dragdrop">
-            <a class="rollover loader-link" id="link6"><img src="assets/images/trash_off.png" alt="advertising" /><br />
-            <span>advertising</span></a>
+              <a class="rollover loader-link" id="link6"
+                ><img
+                  src="https://harrypujols.com/desktop/images/trash_off.png"
+                  alt="advertising"
+                /><br />
+                <p>advertising</p></a
+              >
             </li>
-        </ul>
+          </ul>
         </nav>
-      </div>
-        <div id="loader" class="dragdrop">
-        <noscript>
+      </section>
+      <div id="loader" class="dragdrop">
         <div id="window">
-          <h1>Fatal Error!</h1>
-           <div id="content">
-             <p class="center"><img src="assets/images/bomb.png" width="43" height="45" alt="bomb" /></p>
-             <p><strong>Harry's site just crashed!</strong><br />
-             Your browser has JavaScript disabled. To run this OS, please turn on JavaScript. As an alternative, visit <a href="http://harrypujols.blogspot.com/">Harry's blog</a>.</p><p>Sorry for the inconvenience.</p>
-         </div>
+          <a href="#" onclick="$('#window').hide();"><div id="button"></div></a>
+          <h1>Advertising</h1>
+          <div id="content">
+            <ul>
+              <li class="dragdrop">
+                <a href="#" class="rollover" id="adhelp_btn">
+                  <img
+                    src="assets/images/help_off.png"
+                    alt="about this section"
+                  />
+                  <p>about.txt</p>
+                </a>
+              </li>
+              <li class="dragdrop">
+                <a href="#" class="rollover" id="boxeo_btn">
+                  <img src="assets/images/img_off.png" alt="boxeo image" />
+                  <p>boxeo.jpg</p>
+                </a>
+              </li>
+              <li class="dragdrop">
+                <a href="#" class="rollover" id="cookies_btn">
+                  <img src="assets/images/img_off.png" alt="cookies image" />
+                  <p>cookies.jpg</p>
+                </a>
+              </li>
+              <li class="dragdrop">
+                <a href="#" class="rollover" id="corn_btn">
+                  <img src="assets/images/img_off.png" alt="corn image" />
+                  <p>corn.jpg</p>
+                </a>
+              </li>
+              <li class="dragdrop">
+                <a href="#" class="rollover" id="eggs_btn">
+                  <img src="assets/images/img_off.png" alt="eggs image" />
+                  <p>eggs.jpg</p>
+                </a>
+              </li>
+              <li id="next" class="dragdrop">
+                <a href="#" class="rollover" id="next">
+                  <img src="assets/images/folder_off.png" alt="next folder" />
+                  <p>next</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- ui-dialog -->
+          <div id="adhelp" title="about.txt">
+            <p>
+              Harry worked for many years as an advertising copywriter, which
+              you will find strange, since this work is more "visual" and less
+              copy-heavy.
+            </p>
+          </div>
+          <div id="boxeo" title="boxeo.jpg">
+            <img
+              src="assets/images/advertising/boxeo.jpg"
+              width="600"
+              height="492"
+              alt="boxeo"
+            />
+          </div>
+          <div id="cookies" title="cookies.jpg">
+            <img
+              src="assets/images/advertising/cookies.jpg"
+              width="450"
+              height="583"
+              alt="cookies"
+            />
+          </div>
+          <div id="corn" title="corn.jpg">
+            <img
+              src="assets/images/advertising/corn.jpg"
+              width="450"
+              height="583"
+              alt="cookies"
+            />
+          </div>
+          <div id="eggs" title="eggs.jpg">
+            <img
+              src="assets/images/advertising/eggs.jpg"
+              width="450"
+              height="583"
+              alt="cookies"
+            />
+          </div>
+          <!-- ui-dialog -->
         </div>
-     </noscript>
-        </div><!--loader-->    
-  </div><!--container-->
-</body>
+      </div>
+      <!--loader-->
+    </div>
+    <!--container-->
+  </body>
 </html>
 <!--
   ?                                                                             
@@ -94,4 +224,3 @@ NIIN                    :$III7                 O7IIO
                         .DM.                  .MM8:IM                           
                         .D.                   .~            
 -->
-
