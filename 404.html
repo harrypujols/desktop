@@ -1,11 +1,127 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page not found</title>
+    <!--meta tags-->
+    <meta
+      name="description"
+      content="The virtual desktop of Harry Pujols. Creative director, Web developer, and sometimes, cartoonist."
+    />
+    <meta
+      name="keywords"
+      content="cartoonist, writer, copywriter, creative, designer, developer, artist, freelance"
+    />
+    <title>Harry Pujols</title>
+    <!--style tags-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" type="image/png" href="icon.png" />
+    <!--script tags-->
+
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"
+    ></script>
+    <script src="assets/js/actions.js"></script>
+    <!--[if IE]>
+      <script src="js/modernizr.js"></script>
+      <link href="css/ie.css" rel="stylesheet" media="all" />
+    <![endif]-->
   </head>
   <body>
-    <h1>Wow, you hit a 404</h1>
+    <div id="container" class="rounded">
+      <header>
+        <span id="logo"
+          ><a href="/" id="reset"
+            ><img
+              src="assets/images/lizard.png"
+              width="36"
+              height="17"
+              alt="reset" /></a
+        ></span>
+        <h2><a id="link1" class="loader-link">About</a></h2>
+        <h2><a id="link2" class="loader-link">Contact</a></h2>
+        <h2><a id="share" class="loader-link">Share</a></h2>
+        <div id="dropdown" style="display: none">
+          <ul>
+            <li>
+              <a
+                href="http://www.facebook.com/share.php?u=http://www.harrypujols.com"
+                target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://twitter.com/home?status=http://www.harrypujols.com"
+                target="_blank"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </div>
+        <span id="clock"> 5:55 PM</span>
+      </header>
+      <section>
+        <nav>
+          <ul>
+            <li class="dragdrop">
+              <a id="link3" class="rollover loader-link"
+                ><img src="assets/images/hd_off.png" alt="social" /><br />
+                <span>social network</span></a
+              >
+              <!--
+            </li> 
+            <li class="dragdrop">
+            <a href="links" class="rollover loader-link"><img src="assets/images/diskette_off.png" alt="interactive" /><br />
+            <p>interactive</p></a>
+            </li>
+            <li class="dragdrop">
+            <a href="comics" class="rollover loader-link"><img src="assets/images/app_off.png" alt="comics" /><br />
+            <p>comics</p></a>
+            </li>
+            --></li>
+            <li class="dragdrop">
+              <a href="content/resume/index.html" class="rollover"
+                ><img src="assets/images/document_off.png" alt="resume" /><br />
+                <span>resume.doc</span></a
+              >
+            </li>
+            <li id="trash" class="dragdrop">
+              <a class="rollover loader-link" id="link6"
+                ><img
+                  src="https://harrypujols.com/desktop/images/trash_off.png"
+                  alt="advertising"
+                /><br />
+                <span>advertising</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <div id="loader" class="dragdrop">
+        <div id="window">
+          <h1>Fatal Error!</h1>
+          <div id="content">
+            <figure class="center">
+              <img
+                src="assets/images/bomb.png"
+                width="43"
+                height="45"
+                alt="bomb"
+              />
+            </figure>
+            <h3>404 Error</h3>
+            <p>The page you are looking for does not exist or has moved.</p>
+            <p>Sorry for the inconvenience.</p>
+          </div>
+        </div>
+      </div>
+      <!--loader-->
+    </div>
+    <!--container-->
   </body>
 </html>
