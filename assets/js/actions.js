@@ -2,7 +2,7 @@
 $(document).ready(function () {
   //to load the waiting image while the real image loads
   var loading = $("<img />")
-    .attr("src", "images/watch.gif")
+    .attr("src", "assets/images/watch.gif")
     .attr("id", "loading");
 
   //hides dropdown menu when going somewhere else in the top bar
