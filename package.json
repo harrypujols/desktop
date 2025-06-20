@@ -2,10 +2,10 @@
   "name": "site",
   "version": "0.5.1",
   "description": "Home of harrypujols.com",
-  "devDependencies": {
-    "serve": "^14.2.4"
-  },
   "scripts": {
-    "start": "serve . -l 5000"
+    "start": "http-server -p 8080 -c-1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
