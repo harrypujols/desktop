@@ -5,11 +5,12 @@
 
 @font-face {
   font-family: "pixChicagoRegular";
-  src: url("../fonts/pixchicago-webfont.eot");
-  src: url("../fonts/pixchicago-webfont.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/pixchicago-webfont.woff") format("woff"),
-    url("../fonts/pixchicago-webfont.ttf") format("truetype"),
-    url("../fonts/pixchicago-webfont.svg#pixChicagoRegular") format("svg");
+  src: url("/assets/fonts/pixchicago-webfont.eot");
+  src: url("/assets/fonts/pixchicago-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/pixchicago-webfont.woff") format("woff"),
+    url("/assets/fonts/pixchicago-webfont.ttf") format("truetype"),
+    url("/assets/fonts/pixchicago-webfont.svg#pixChicagoRegular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
