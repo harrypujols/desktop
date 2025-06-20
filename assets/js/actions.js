@@ -12,8 +12,14 @@ $(document).ready(function () {
   });
 
   //loaders
-  $(".loader-link").click(function () {
-    // event.preventDefault();
+  $(".loader-link").click(function (event) {
+    event.preventDefault();
+
+    $("#loader").empty();
+    var y = "";
+    //get the id of the clicked link
+    var x = "";
+
     x = $(this).attr("id");
     switch (x) {
       case "link1":
@@ -286,7 +292,7 @@ $(function ($) {
   };
 
   //Start ↑ ↑ ↓ ↓ ← → ← → B  A
-  var contra = "http://www.masswerk.at/flyer/flyer.html";
+  var contra = "/private.html";
   var keys = [];
   var konami = "38,38,40,40,37,39,37,39,66,65,13";
   $(document).keydown(function (e) {
