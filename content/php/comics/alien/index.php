@@ -3,11 +3,11 @@
 $lastPage = 20; //indicates the last page in the comic
 $shortName = "alien"; //indicates the name of the folder where the comic is located
 $comicName = "Secret Confessions of a Space Alien";
-$url = "http://www.harrypujols.com/comics/";
+$url = "//www.harrypujols.com/comics/";
 $imgFolder = $url . "images/";
 $pageFolder = $imgFolder . $shortName;
 ?>
-<html xmlns:og="http://opengraphprotocol.org/schema/">
+<html xmlns:og="//opengraphprotocol.org/schema/">
 <meta charset="utf-8">
 
 <head>
@@ -48,11 +48,11 @@ $pageFolder = $imgFolder . $shortName;
 		<span id="social">
 			<!--like button-->
 			<iframe
-				src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fharrypujols.com%2Fcomics%2F<? echo $shortName ?>&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21"
+				src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fharrypujols.com%2Fcomics%2F<? echo $shortName ?>&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21"
 				style="border:none; overflow:hidden; width:200px; height:21px;"></iframe>
 			<!--tweet button-->
-			<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-			<a href="http://twitter.com/share" class="twitter-share-button">Tweet</a>
+			<script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+			<a href="//twitter.com/share" class="twitter-share-button">Tweet</a>
 		</span>
 
 	</header>
@@ -93,7 +93,7 @@ $pageFolder = $imgFolder . $shortName;
 	<footer>
 		<!--comments-->
 		<div id="fb-root"></div>
-		<script src="http://connect.facebook.net/en_US/all.js#appId=144864672250472&amp;xfbml=1"></script>
+		<script src="//connect.facebook.net/en_US/all.js#appId=144864672250472&amp;xfbml=1"></script>
 		<fb:comments href="<? echo $url . $shortName ?>" num_posts="100" width="320"></fb:comments>
 	</footer>
 	<!--google analytics-->
