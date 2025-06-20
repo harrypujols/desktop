@@ -5,6 +5,7 @@
 .publish
 .htaccess
 .DS_Store
+.github
 originals/
 reel/
 video/
