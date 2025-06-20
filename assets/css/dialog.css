@@ -11,7 +11,7 @@
 .ui-dialog .ui-dialog-titlebar {
   padding: 4px 0px 0px 0px;
   position: relative;
-  background-image: url(..assets/images/titlebar.png);
+  background-image: url(../images/titlebar.png);
   background-position: 0px 20px;
   border: 1px solid black;
   height: 20px;

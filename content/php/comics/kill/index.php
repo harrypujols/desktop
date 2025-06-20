@@ -43,7 +43,7 @@ $pageFolder = $imgFolder . $shortName;
     media="only screen and (min-width: 0px) and (max-width: 480px)">
   <link href="../css/horizontal.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 481px)">
   <!--scripts-->
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
   <script type="text/javascript" src="../js/iscroll.js" id="iscroll"></script>
   <script type="text/javascript" src="../js/horizontal.js"></script>
 </head>
@@ -114,13 +114,13 @@ $pageFolder = $imgFolder . $shortName;
   <script type="text/javascript">
     (function () {
       var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-      po.src = 'https://apis.google.com/js/plusone.js';
+      po.src = '//apis.google.com/js/plusone.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
     })();
   </script>
   <!--google analytics-->
   <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    var gaJsHost = (("https:" == document.location.protocol) ? "//ssl." : "http://www.");
     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
   </script>
   <script type="text/javascript">
