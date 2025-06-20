@@ -2,18 +2,18 @@
 
 @font-face {
   font-family: "pix Chicago";
-  src: url("/assets/fonts/pixchicago.ttf");
+  src: url("../../assets/fonts/pixchicago.ttf");
 }
 
 @font-face {
   font-family: "pix Chicago-i";
-  src: url("/assets/fonts/pixchicago.svg.xml") format("svg");
-  src: url("/assets/fonts/pixchicago.svg") format("svg");
+  src: url("../../assets/fonts/pixchicago.svg.xml") format("svg");
+  src: url("../../assets/fonts/pixchicago.svg") format("svg");
 }
 
 @font-face {
   font-family: "pix Chicago-w";
-  src: url("/assets/fonts/pixchicago.eot");
+  src: url("../../assets/fonts/pixchicago.eot");
 }
 
 body {
